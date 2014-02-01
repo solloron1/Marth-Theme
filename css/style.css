@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'Nevis';
+  src: url('../fonts/nevis.eot?') format('eot'), url('../fonts/nevis.woff') format('woff'), url('../fonts/nevis.ttf') format('truetype'), url('../fonts/nevis.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'Quadon';
+  src: url('../fonts/quadon.eot?') format('eot'), url('../fonts/quadon.woff') format('woff'), url('../fonts/quadon.ttf') format('truetype'), url('../fonts/quadon.svg') format('svg');
+}
+
+/* Adds scroll bar, regardless if needed or not. Prevents scroll from messing up layout */
+html {
+  overflow-y: scroll;
+}
+
+/* Used to push footer to the bottom */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+body {
+  font-family: 'Quadon', Helvetica, sans-serif;
+  font-size: 1.75em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Quadon', Helvetica, sans-serif;
+}
+
+.pt {
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
+}
+
+/* Used to push footer to the bottom */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -47px;
+}
+
+/* Remove overflow bar when the lightbox is open */
+body.lightbox-open,
+.lightbox {
+  overflow: hidden;
+  margin-right: 0px;
+}
+
+/* Adds a 20px margin to the container in the div wrap */
+#wrap > .container {
+/* margin-bottom: 1.15em;*/
+}
+
+/* All following CSS is used for the navbar at the top of the screen */
+.navbar {
+  text-transform: uppercase;
+  font-family: 'Nevis', sans-serif;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+.navbar-inverse {
+  padding: 5em 0 5em 0;
+  background-color: #3f92d2;
+  border-color: #0b61a4;
+}
+
+.navbar-brand {
+  font-size: 1.75em;
+}
+
+.navbar-inverse
+.navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-inverse
+.navbar-nav > li > a {
+  color: #ffffff;
+}
+
+.navbar-inverse
+.navbar-nav > li > a:hover {
+  color: #222222;
+}
+
+.navbar-inverse
+.navbar-collapse {
+  border-color: #0b61a4;
+}
+
+/* All the following CSS is used for the navbar acting as the footer */
+footer.navbar,
+.push {
+  height: 47px;
+}
+
+footer.navbar {
+  font-family: 'Quadon', Helvetica, sans-serif;
+  text-transform: none;
+  background-color: #000000;
+  border-radius: 0;
+  min-height: 47px;
+}
+
+footer.navbar-default {
+  border: none;
+}

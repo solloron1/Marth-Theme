@@ -1,0 +1,4 @@
+Theme name: Marth
+Description: This is a theme created in honor of Marth.
+Author name: Andrew Loreaux
+Author site: http://andrewloreaux.com
