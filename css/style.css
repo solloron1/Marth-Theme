@@ -4,8 +4,8 @@
 }
 
 @font-face {
-  font-family: 'Quadon';
-  src: url('../fonts/quadon.eot?') format('eot'), url('../fonts/quadon.woff') format('woff'), url('../fonts/quadon.ttf') format('truetype'), url('../fonts/quadon.svg') format('svg');
+  font-family: 'Sourcesans';
+  src: url('../fonts/sourcesans.eot?') format('eot'), url('../fonts/sourcesans.woff') format('woff'), url('../fonts/sourcesans.ttf') format('truetype'), url('../fonts/sourcesans.svg') format('svg');
 }
 
 /* Adds scroll bar, regardless if needed or not. Prevents scroll from messing up layout */
@@ -24,17 +24,17 @@ body {
 }
 
 body {
-  font-family: 'Quadon', Helvetica, sans-serif;
+  font-family: 'Sourcesans', Helvetica, sans-serif;
   font-size: 1.75em;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Quadon', Helvetica, sans-serif;
+  font-family: 'Sourcesans', Helvetica, sans-serif;
 }
 
 .pt {
   padding-top: 1.2em;
-  padding-bottom: 1.2em;
+  padding-bottom: 1.5em;
 }
 
 /* Used to push footer to the bottom */
@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0 auto -47px;
+  margin: 0 auto -48px;
 }
 
 /* Remove overflow bar when the lightbox is open */
@@ -72,7 +72,7 @@ body.lightbox-open,
 }
 
 .navbar-brand {
-  font-size: 1.75em;
+  font-size: 1.5em;
 }
 
 .navbar-inverse
@@ -98,7 +98,7 @@ body.lightbox-open,
 /* All the following CSS is used for the navbar acting as the footer */
 footer.navbar,
 .push {
-  height: 47px;
+  height: 48px;
 }
 
 footer.navbar {
@@ -106,9 +106,28 @@ footer.navbar {
   text-transform: none;
   background-color: #000000;
   border-radius: 0;
-  min-height: 47px;
+  min-height: 48px;
 }
 
 footer.navbar-default {
-  border: none;
+  border: 0;
+}
+
+small.navbar-brand {
+  font-size: 80%;
+  height: 48px;
+}
+
+.social {
+  list-style-type: none;
+  margin-bottom: 0px;
+  padding: 12px 0 12px 0;
+}
+
+.social > li {
+  display: inline;
+}
+
+.social > li > a {
+  padding-right: 5px;
 }

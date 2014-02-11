@@ -4,7 +4,8 @@
     </div>
     <footer class="navbar navbar-default">
       <div class="container">
-        <small class="navbar-text">&copy; <?php echo date('Y'); ?> <?php echo site_name(); ?>. All Rights Reserved.</small>
+        <small class="navbar-brand">&copy; <?php echo date('Y'); ?> <?php echo site_name(); ?>. All Rights Reserved.</small>
+        <?php theme_include('social'); ?>
       </div>
     </footer>
     <!-- Added JS to the bottom for faster loading -->
