@@ -21,19 +21,28 @@ body {
 
 body {
   background-color: #f2f2f2;
-}
-
-body {
   font-family: 'Sourcesans', Helvetica, sans-serif;
   font-size: 1.75em;
+}
+
+hr {
+  border-color: #ccc;
+}
+
+.posts a {
+  color: #3f92d2;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Sourcesans', Helvetica, sans-serif;
 }
 
+.centered {
+  text-align: center;
+}
+
 .pt {
-  padding-top: 1.2em;
+  padding-top: 1.5em;
   padding-bottom: 1.5em;
 }
 
@@ -52,10 +61,7 @@ body.lightbox-open,
   margin-right: 0px;
 }
 
-/* Adds a 20px margin to the container in the div wrap */
-#wrap > .container {
-/* margin-bottom: 1.15em;*/
-}
+/* End of overall page and content layout */
 
 /* All following CSS is used for the navbar at the top of the screen */
 .navbar {
@@ -94,6 +100,7 @@ body.lightbox-open,
 .navbar-collapse {
   border-color: #0b61a4;
 }
+/* End of Navbar */
 
 /* All the following CSS is used for the navbar acting as the footer */
 footer.navbar,
@@ -102,8 +109,6 @@ footer.navbar,
 }
 
 footer.navbar {
-  font-family: 'Quadon', Helvetica, sans-serif;
-  text-transform: none;
   background-color: #000000;
   border-radius: 0;
   min-height: 48px;
@@ -115,6 +120,19 @@ footer.navbar-default {
 
 small.navbar-brand {
   font-size: 80%;
+  height: 48px;
+}
+
+p.navbar-text > small {
+  margin-left: -15px;
+}
+
+p.navbar-text {
+  text-transform: uppercase;
+  font-size: 80%;
+  margin: 0px;
+  padding: 14px 14px;
+  line-height: 18px;
   height: 48px;
 }
 
@@ -130,4 +148,85 @@ small.navbar-brand {
 
 .social > li > a {
   padding-right: 5px;
+}
+/* End of Footer */
+
+/* The following CSS is used for content displayed on the blog page */
+article:first-child {
+  padding-top: 1.5em;
+}
+
+article:last-child {
+  padding-bottom: 1.5em;
+}
+
+article {
+  padding-bottom: .5em;
+}
+
+article > .panel {
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.panel-default > .panel-heading {
+  color: #fff;
+  background-color: #145689;
+}
+
+.panel-footer {
+  background-color: #ffffff;
+  border-top: none;
+}
+
+.panel-footer > a, a:hover {
+  text-decoration: none;
+  color: #3f92d2;
+}
+/* End of blog */
+
+/* The following CSS is used for the contact page */
+.contact-heading p {
+  padding-bottom: 3.5em;
+}
+
+.contact textarea {
+  resize: none;
+}
+
+.contact-form {
+  padding-bottom: 1.25em;
+}
+/* End of contact */
+
+@media (max-width: 768px) {
+  .navbar-inverse {
+    padding: 0;
+  }
+
+  .navbar-inverse .navbar-toggle {
+    border-color: transparent;
+  }
+
+  .navbar-inverse .navbar-nav>.open>a,
+  .navbar-inverse .navbar-nav>.open>a:hover,
+  .navbar-inverse .navbar-nav>.open>a:focus {
+    background-color: #3f92d2;
+  }
+
+  .navbar-inverse .navbar-nav .open
+  .dropdown-menu>li>a {
+    color: #ffffff;
+  }
+
+  .navbar-inverse .navbar-nav .open
+  .dropdown-menu>li>a:hover {
+    color: #222222;
+  }
+  .navbar-brand {
+    font-size: 90%;
+  }
+  .navbar-collapse {
+    max-height: none;
+  }
 }

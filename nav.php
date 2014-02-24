@@ -8,6 +8,18 @@
         </a>
       </li>
     <?php endwhile; ?>
+      <li class="dropdown visible-xs">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Find Me <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li>
+            <a href="https://www.facebook.com/aloreaux">Facebook</a>
+            <a href="https://plus.google.com/+AndrewLoreaux">Google+</a>
+            <a href="https://twitter.com/andrewloreaux">Twitter</a>
+            <a href="https://linkedin.com/pub/andrew-loreaux/14/6bb/7a/">Linkedin</a>
+            <a href="https://last.fm/user/solloron1">Last.fm</a>
+          </li>
+        </ul>
+      </li>
     </ul>
   <?php endif; ?>
 </nav>

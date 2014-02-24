@@ -7,3 +7,4 @@
             <a href="https://last.fm/user/solloron1"><img src="<?php echo theme_url('/img/lastfm.png'); ?>" /></a>
           </li>
         </ul>
+        <p class="navbar-text hidden-xs pull-right">Find Me</p>

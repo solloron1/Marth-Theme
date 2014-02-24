@@ -3,7 +3,7 @@
   <script src="<?php echo theme_url('/js/html5shiv.min.js'); ?>"></script>
   <script src="<?php echo theme_url('/js/respond.js'); ?>"></script>
 <![endif]-->
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
