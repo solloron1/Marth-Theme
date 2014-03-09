@@ -12,5 +12,6 @@
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="<?php echo theme_url('/js/bootstrap.min.js'); ?>"></script>
     <script src="<?php echo theme_url('/js/bootstrap-lightbox.min.js'); ?>"></script>
+    <script src="<?php echo theme_url('/js/jBootValidator.min.js'); ?>"></script>
   </body>
 </html>
