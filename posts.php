@@ -22,10 +22,10 @@
         </article>
       <?php endwhile; ?>
       <?php if(has_pagination()): ?>
-        <div class="col-lg-2">
+        <div class="pagination col-lg-2">
           <?php echo posts_prev(); ?>
         </div>
-        <div class="col-lg-2 col-lg-offset-8">
+        <div class="pagination col-lg-2 col-lg-offset-8">
           <div class="pull-right">
             <?php echo posts_next(); ?>
           </div>
