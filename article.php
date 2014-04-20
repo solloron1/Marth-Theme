@@ -6,6 +6,7 @@
       <article>
         <?php echo article_markdown(); ?>
       </article>
+      <a href="<?php echo base_url(); ?>blog">blog</a>
     </section>
   </div>
 

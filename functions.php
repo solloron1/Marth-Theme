@@ -106,3 +106,23 @@ function marth_latest_posts($category = 1) {
 
   return $result;
 }
+
+function marth_pagetag($page) {
+  if($page == 'home') {
+    $tag = '<p>This is my website.  There are many like it, but this one is mine.</p>';
+  }
+  else if($page == 'about') {
+    $tag = '<p>This is my about me page</p>';
+  }
+  else if($page == 'blog') {
+    $tag = '<p>Some thought and musings on Linux, Computers, Technology, Web Development and Music.</p>';
+  }
+  else if($page == 'work') {
+    $tag = '<p>These are a few of the pages I have delevoped and worked on.</p>';
+  }
+  else if($page == 'contact') {
+    $tag = '<p>If you would like to send me an email please fill out the form below and I will get back to you as soon as I can.  You can also contact me from any of the social sites listed below.</p>';
+  }
+
+  return $tag;
+}

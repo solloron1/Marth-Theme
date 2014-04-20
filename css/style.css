@@ -41,6 +41,10 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
+.heading > p {
+  padding-bottom: 2.75em;
+}
+
 .pt {
   padding-top: 1.5em;
   padding-bottom: 1.5em;
@@ -152,9 +156,9 @@ p.navbar-text {
 /* End of Footer */
 
 /* The following CSS is used for content displayed on the blog page */
-article:first-child {
+/*article:first-child {
   padding-top: 1.5em;
-}
+}*/
 
 article:last-child {
   padding-bottom: 1.5em;
@@ -184,23 +188,36 @@ article > .panel {
   color: #3f92d2;
 }
 
-.pagination {
+/*.pagination {
   margin: 0;
   padding: 0 0 20px 0;
+}*/
+
+#prev, #next {
+  padding-bottom: 15px;
 }
 /* End of blog */
 
 /* The following CSS is used for the contact page */
-.contact-heading p {
-  padding-bottom: 3.5em;
-}
-
 .contact textarea {
   resize: none;
 }
 
 .contact-form {
   padding-bottom: 1.25em;
+}
+
+.alert-dismissable .close {
+  top: 0px;
+}
+
+#success, #error {
+  display: none;
+}
+
+form label.error {
+  color: #be1f0e;
+  font-size: .5em;
 }
 /* End of contact */
 

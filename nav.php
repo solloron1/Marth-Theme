@@ -15,7 +15,7 @@
             <a href="https://www.facebook.com/aloreaux">Facebook</a>
             <a href="https://plus.google.com/+AndrewLoreaux">Google+</a>
             <a href="https://twitter.com/andrewloreaux">Twitter</a>
-            <a href="https://linkedin.com/pub/andrew-loreaux/14/6bb/7a/">Linkedin</a>
+            <a href="https://linkedin.com/in/andrewloreaux">Linkedin</a>
             <a href="https://last.fm/user/solloron1">Last.fm</a>
           </li>
         </ul>

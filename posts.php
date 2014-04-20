@@ -1,5 +1,10 @@
 <?php theme_include('header'); ?>
 
+  <div class="col-lg-6 col-lg-offset-3 centered heading">
+    <h2><?php echo page_title(); ?></h2>
+    <hr>
+    <?php echo marth_pagetag(page_slug()); ?>
+  </div>
   <div class="col-lg-10 col-lg-offset-1">
     <?php if(has_posts()): ?>
       <?
@@ -22,11 +27,11 @@
         </article>
       <?php endwhile; ?>
       <?php if(has_pagination()): ?>
-        <div class="pagination col-lg-2">
+        <div id="prev"class="col-lg-2">
           <?php echo posts_prev(); ?>
         </div>
-        <div class="pagination col-lg-2 col-lg-offset-8">
-          <div class="pull-right">
+        <div class="col-lg-2 col-lg-offset-8">
+          <div id="next" class="pull-right">
             <?php echo posts_next(); ?>
           </div>
         </div>
