@@ -7,10 +7,27 @@
   </div>
   <div class="col-lg-10 col-lg-offset-1">
     <?php if(has_posts()): ?>
-      <?
+      <?/*
       $count = 1;
       while (posts() && $count <= 4):
-      ?>
+      */?>
+      <?php posts(); ?>
+        <article>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <?php echo article_title(); ?>
+            </div>
+            <div class="panel-body">
+              <?php echo article_markdown(); ?>
+            </div>
+            <div class="panel-footer">
+              <a class="pull-right" href="<?php echo article_url(); ?>" title="<?php echo article_title(); ?>"><span class="glyphicon glyphicon-chevron-right"></span></a>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </article>
+      <?php $i = 0; while(posts()): ?>
+      <?php $bg = sprintf('background: hsl(215, 28%%, %d%%);', round(((++$i / posts_per_page()) * 20) + 20)); ?>
         <article>
           <div class="panel panel-default">
             <div class="panel-heading">
