@@ -18,7 +18,7 @@
               <?php echo article_title(); ?>
             </div>
             <div class="panel-body">
-              <?php echo article_markdown(); ?>
+              <?php echo article_description(); ?>
             </div>
             <div class="panel-footer">
               <a class="pull-right" href="<?php echo article_url(); ?>" title="<?php echo article_title(); ?>"><span class="glyphicon glyphicon-chevron-right"></span></a>
@@ -34,7 +34,7 @@
               <?php echo article_title(); ?>
             </div>
             <div class="panel-body">
-              <?php echo article_markdown(); ?>
+              <?php echo article_description(); ?>
             </div>
             <div class="panel-footer">
               <a class="pull-right" href="<?php echo article_url(); ?>" title="<?php echo article_title(); ?>"><span class="glyphicon glyphicon-chevron-right"></span></a>
