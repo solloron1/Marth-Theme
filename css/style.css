@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .heading > p {
-  padding-bottom: 2.75em;
+  padding-bottom: 2em;
 }
 
 .pt {
@@ -63,6 +63,18 @@ body.lightbox-open,
 .lightbox {
   overflow: hidden;
   margin-right: 0px;
+}
+
+.pic {
+  margin-bottom: 45px;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
 }
 
 /* End of overall page and content layout */
